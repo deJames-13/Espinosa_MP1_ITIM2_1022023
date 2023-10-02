@@ -88,27 +88,27 @@
                 <form action="./add.php" method="post">
                     <div>
                         <label for="name">Song Name</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" require>
                     </div>
 
                     <div>
                         <label for="album">Album</label>
-                        <input type="text" name="album">
+                        <input type="text" name="album" require>
                     </div>
 
                     <div>
                         <label for="genre">Genre</label>
-                        <input type="text" name="genre">
+                        <input type="text" name="genre" require>
                     </div>
 
                     <div>
                         <label for="artist">Artist</label>
-                        <input type="text" name="artist">
+                        <input type="text" name="artist" require>
                     </div>
 
                     <div>
                         <label for="year">Year Released</label>
-                        <input type="text" name="year">
+                        <input type="text" name="year" require>
                     </div>
 
                     <button type="submit" class="btn btn-success"> Add Song</button>
